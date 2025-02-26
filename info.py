@@ -43,7 +43,7 @@ class evamaria(Client):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '12618934'))
 API_HASH = environ.get('API_HASH', '49aacd0bc2f8924add29fb02e20c8a16')
-BOT_TOKEN = environ['BOT_TOKEN', 7857321740:AAHSUfjwO3w6Uffmxm9vCUMl36FtXl5-r6w']
+BOT_TOKEN = environ['BOT_TOKEN', '7857321740:AAHSUfjwO3w6Uffmxm9vCUMl36FtXl5-r6w']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 600))
